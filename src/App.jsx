@@ -13,7 +13,9 @@ function App() {
         <p>
           Value: {count}
         </p>
-        <button onClick={() => setCount((count) => count - 1)}>
+        <button onClick={() => {
+          if (count > 0) setCount((count) => count - 1) ;
+        }}>
           −
         </button>
         <button onClick={() => setCount((count) => 0)}>
