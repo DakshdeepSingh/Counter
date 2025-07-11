@@ -13,10 +13,11 @@
   font-size: 25px;
   scale: 1;
   transition: scale 500ms, background-color 500ms;
+  margin-left: 1em;
 }
 
-.card > button:last-child {
-  margin-left: 1em;
+.card > button:first-child {
+  margin-left: 0;
 }
 
 .card > button:hover {

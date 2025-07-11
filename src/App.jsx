@@ -16,6 +16,9 @@ function App() {
         <button onClick={() => setCount((count) => count - 1)}>
           −
         </button>
+        <button onClick={() => setCount((count) => 0)}>
+          ↻
+        </button>
         <button onClick={() => setCount((count) => count + 1)}>
           +
         </button>
